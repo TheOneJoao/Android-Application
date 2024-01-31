@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.imageview.ShapeableImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_thumbnail"
+    android:src="@mipmap/avatar"
+    android:layout_height="@dimen/profile_thumbnail_side"
+    android:layout_width="@dimen/profile_thumbnail_side"
+
+    app:shapeAppearanceOverlay="@style/roundedImageView"
+    style="@style/roundedProfileThumbnail" />

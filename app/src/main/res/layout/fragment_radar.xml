@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.radar.RadarFragment">
+
+
+   <LinearLayout
+       android:id="@+id/ll_radar_header"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+
+      <TextView
+          android:text="URBAN BEACH"
+          android:textSize="20sp"
+          android:layout_gravity="center"
+          android:layout_weight="5"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content" />
+
+      <com.google.android.material.imageview.ShapeableImageView
+          android:id="@+id/my_thumbnail"
+          android:src="@mipmap/img_dummy_luis"
+          app:shapeAppearanceOverlay="@style/roundedImageView"
+          android:layout_width="@dimen/profile_thumbnail_side"
+          android:layout_height="@dimen/profile_thumbnail_side"
+          app:strokeColor="@color/white"
+          app:strokeWidth="1dp"/>
+   </LinearLayout>
+
+   <GridView
+       android:id="@+id/gv_radar"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:numColumns="5"
+       android:gravity="center" />
+</LinearLayout>

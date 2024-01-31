@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_moment"
+        android:icon="@drawable/ic_nav_story"
+        android:title="@string/title_nav_story" />
+
+    <item
+        android:id="@+id/navigation_radar"
+        android:icon="@drawable/ic_nav_radar"
+        android:title="@string/title_nav_radar" />
+
+    <item
+        android:id="@+id/navigation_groups"
+        android:icon="@drawable/ic_nav_groups"
+        android:title="@string/title_nav_groups" />
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_moment">
+
+    <fragment
+        android:id="@+id/navigation_moment"
+        android:name="com.outspin.app.ui.moment.MomentFragment"
+        android:label="@string/title_nav_story"
+        tools:layout="@layout/fragment_moment_slider" />
+
+    <fragment
+        android:id="@+id/navigation_radar"
+        android:name="com.outspin.app.ui.radar.RadarFragment"
+        android:label="@string/title_nav_radar"
+        tools:layout="@layout/fragment_radar" />
+
+    <fragment
+        android:id="@+id/navigation_groups"
+        android:name="com.outspin.app.ui.groups.GroupsFragment"
+        android:label="@string/title_nav_groups"
+        tools:layout="@layout/fragment_groups" />
+</navigation>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Outspin</string>
+
+    <string name="login_phone">phone number</string>
+    <string name="login_password">password</string>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="title_nav_story">story</string>
+    <string name="title_nav_moment">moment</string>
+    <string name="title_nav_radar">radar</string>
+    <string name="title_nav_groups">groups</string>
+    <string name="tap">Tap</string>
+    <string name="dance">invite to dance</string>
+</resources>
