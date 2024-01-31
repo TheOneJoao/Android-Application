@@ -1,6 +1,6 @@
 # README for Android Application - Outspit
 
-Welcome to Outspit. This is a social media app that features three distinct pages. It is not completed
+Welcome to Outspit. This is a social media app that features three distinct pages. It is not completed.
 
 ## Key Features:
 
@@ -14,4 +14,4 @@ Experience a continuous stream of content in a format reminiscent of popular pla
 ## Requirements:
 
 Android Studio
-Android device or emulator running Android version X.X.X (minimum SDK version)
+Android device or emulator
